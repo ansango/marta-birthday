@@ -16,11 +16,15 @@ const Hero = ({ action = () => {} }) => {
           ¡Este es tu 30 cumpleaños!
         </h1>
         <h2 className="text-center text-5xl">👵🎉</h2>
-        <p className="text-center text-gray-700 text-lg">
-          Antes de continuar{" "}
-          <span className="font-semibold"> sube el volumen</span> ¡Te espera un
-          mega regalo!
-        </p>
+        <div>
+          <p className="text-center text-gray-700 text-lg pb-5">
+            Antes de continuar, ¡espera un momento!
+            <span className="font-semibold"> ¡sube el volumen!</span>
+          </p>
+          <p className="text-center text-gray-700 text-lg">
+            ¡Te espera un mega regalo!
+          </p>
+        </div>
         <div className="text-7xl text-center">🎁</div>
       </div>
       <div>

@@ -24,6 +24,29 @@ import twentythree from "../public/rem/23.jpg";
 import twentyfour from "../public/rem/24.jpg";
 import twentyfive from "../public/rem/25.jpg";
 import twentysix from "../public/rem/26.jpg";
+import twentyseven from "../public/rem/27.png";
+import twentyeight from "../public/rem/28.jpeg";
+import twentynine from "../public/rem/29.jpeg";
+import thirty from "../public/rem/30.jpeg";
+import thirtyone from "../public/rem/31.jpeg";
+import thirtytwo from "../public/rem/32.jpeg";
+import thirtythree from "../public/rem/33.jpeg";
+import thirtyfour from "../public/rem/34.jpeg";
+import thirtyfive from "../public/rem/35.jpeg";
+import thirtysix from "../public/rem/36.jpeg";
+import thirtyseven from "../public/rem/37.jpeg";
+import thirtyeight from "../public/rem/38.jpeg";
+import thirtynine from "../public/rem/39.jpeg";
+import fourty from "../public/rem/40.jpeg";
+import fourtyone from "../public/rem/41.jpeg";
+import fourtytwo from "../public/rem/42.jpeg";
+import fourtythree from "../public/rem/43.jpeg";
+import fourtyfour from "../public/rem/44.jpeg";
+import fourtyfive from "../public/rem/45.jpg";
+import fourtysix from "../public/rem/46.jpg";
+import fourtyseven from "../public/rem/47.jpg";
+import fourtyeight from "../public/rem/48.jpg";
+import meme from "../public/meme.jpg";
 import Image from "next/image";
 
 const images = [
@@ -147,9 +170,117 @@ const images = [
     description: "siempre sacas una sonrisa.",
   },
   {
+    src: twentyseven,
+    alt: "27",
+    description: "Rumbeando en pandemia...",
+  },
+  {
+    src: twentyeight,
+    alt: "28",
+    description: "con los flatmates.",
+  },
+  {
+    src: fourtyfour,
+    alt: "44",
+    description: "Esperando a las 8 para salir al balcón...",
+  },
+  {
+    src: fourtysix,
+    alt: "46",
+    description: "y vuelta al rumbeo.",
+  },
+  {
+    src: fourtyfive,
+    alt: "45",
+    description: "Vestidos de flores...",
+  },
+
+  {
+    src: twentynine,
+    alt: "29",
+    description: "o saliendo en compañeros 🤣",
+  },
+  {
+    src: thirty,
+    alt: "30",
+    description: "Tus amigos que te quieren...",
+  },
+  {
+    src: thirtyone,
+    alt: "31",
+    description: "aquí o colonizando Latinoamérica...",
+  },
+  {
+    src: thirtytwo,
+    alt: "32",
+    description: "Y en Filipina, no pasa, na de na...",
+  },
+  {
+    src: thirtythree,
+    alt: "33",
+    description: "Una cervecina, un café...",
+  },
+  {
+    src: thirtyfour,
+    alt: "34",
+    description: "una buena pizza...",
+  },
+  {
+    src: thirtyfive,
+    alt: "35",
+    description: "y aunque tengas 30, un buen festi!",
+  },
+  {
+    src: thirtysix,
+    alt: "36",
+    description: "Escapadas...",
+  },
+  {
+    src: thirtyseven,
+    alt: "37",
+    description: "Y mucho besito... 🐱",
+  },
+  {
+    src: thirtynine,
+    alt: "39",
+    description: "🎂",
+  },
+  {
+    src: thirtyeight,
+    alt: "38",
+    description: "Lola dice: 30 ✅",
+  },
+
+  {
+    src: fourtytwo,
+    alt: "42",
+    description: "Rodeada siempre...",
+  },
+  {
+    src: fourtythree,
+    alt: "43",
+    description: "de los mejores!",
+  },
+
+  {
+    src: fourtyseven,
+    alt: "47",
+    description: "Las casetas que no falten!",
+  },
+  {
+    src: fourtyeight,
+    alt: "48",
+    description: "Y un buen robo tampoco.",
+  },
+  {
     src: twentyfive,
     alt: "25",
     description: "💜💜💜",
+  },
+  {
+    src: meme,
+    alt: "meme",
+    description: "",
   },
   {
     src: twentysix,

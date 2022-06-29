@@ -23,7 +23,7 @@ const Iphone = ({ action = () => {} }) => {
         <div className=" relative h-96 sm:h-[34rem] w-full">
           <Image src={iphone} alt="iPhone" layout="fill" objectFit="cover" />
         </div>
-        <p className="text-gray-700 py-5">
+        <p className="text-gray-700 py-5 text-center">
           Ya casi lo tienes, en breves momentos llegará el repartidor de Amazon
           para entregártelo. Recuerda darle propina.
         </p>

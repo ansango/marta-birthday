@@ -1,3 +1,4 @@
+
 import { playAudio, resetAudio } from "../lib/audio";
 
 const Joke = ({ action = () => {} }) => {
@@ -11,7 +12,6 @@ const Joke = ({ action = () => {} }) => {
   
   return (
     <>
-      
       <div id="joke" className="h-screen flex flex-col justify-around">
         <div className="space-y-10">
           <p className="text-center text-gray-700 text-3xl font-semibold pt-10">
@@ -36,6 +36,7 @@ const Joke = ({ action = () => {} }) => {
               ¡aquí tienes un breve resumen!
             </span>
           </p>
+          
           <div className="flex justify-center py-5">
             <a
               href="#gallery"
