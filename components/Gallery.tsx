@@ -8,7 +8,6 @@ import seven from "../public/rem/7.jpg";
 import eight from "../public/rem/8.jpg";
 import nine from "../public/rem/9.jpg";
 import ten from "../public/rem/10.jpg";
-import eleven from "../public/rem/11.jpg";
 import twelve from "../public/rem/12.jpg";
 import thirteen from "../public/rem/13.jpg";
 import fourteen from "../public/rem/14.jpg";
@@ -37,8 +36,6 @@ import thirtysix from "../public/rem/36.jpeg";
 import thirtyseven from "../public/rem/37.jpeg";
 import thirtyeight from "../public/rem/38.jpeg";
 import thirtynine from "../public/rem/39.jpeg";
-import fourty from "../public/rem/40.jpeg";
-import fourtyone from "../public/rem/41.jpeg";
 import fourtytwo from "../public/rem/42.jpeg";
 import fourtythree from "../public/rem/43.jpeg";
 import fourtyfour from "../public/rem/44.jpeg";
@@ -55,11 +52,23 @@ import fiftyfour from "../public/rem/54.jpeg";
 import fiftyfive from "../public/rem/55.jpeg";
 import fiftysix from "../public/rem/56.jpeg";
 import fiftyseven from "../public/rem/57.jpeg";
-
+import fiftyeight from "../public/rem/58.jpg";
+import fiftynine from "../public/rem/59.jpg";
+import sixty from "../public/rem/60.jpg";
+import sixtyone from "../public/rem/61.jpg";
+import sixtytwo from "../public/rem/62.jpg";
+import sixtyfour from "../public/rem/64.jpg";
+import sixtyfive from "../public/rem/65.jpeg";
 import meme from "../public/meme.jpg";
 import Image from "next/image";
 
 const images = [
+  {
+    src: fiftyeight,
+    alt: "58",
+    description: "Profesional de la vida. Amante de su trabajo.",
+  },
+
   {
     src: one,
     alt: "1",
@@ -108,15 +117,15 @@ const images = [
     description: "La mente viajando...",
   },
   {
+    src: sixtyone,
+    alt: "61",
+    description: "Los pies en la luna...",
+  },
+  {
     src: ten,
     alt: "10",
     description:
       "y hemos llegado hasta aquí, aunque nos hayan timado en Sintra.",
-  },
-  {
-    src: eleven,
-    alt: "11",
-    description: "En el campo o en la playa, siempre ready para la foto.",
   },
   {
     src: twelve,
@@ -230,11 +239,20 @@ const images = [
     alt: "50",
     description: "Party por la noche...",
   },
-
+  {
+    src: sixtyfive,
+    alt: "65",
+    description: "Everydayssss...",
+  },
   {
     src: thirtytwo,
     alt: "32",
-    description: "Y en Filipina, no pasa, na de na...",
+    description: "En Asia nose, pero en Filipina, no pasa, na de na...",
+  },
+  {
+    src: sixty,
+    alt: "60",
+    description: "Early years",
   },
   {
     src: thirtythree,
@@ -324,9 +342,25 @@ const images = [
     description: "Tailandia",
   },
   {
+    src: fiftynine,
+    alt: "59",
+    description: "Pinche ¿cómo asi? No máaas, ya weey",
+  },
+
+  {
+    src: sixtytwo,
+    alt: "62",
+    description: "Las buenas reus",
+  },
+  {
     src: twentyfive,
     alt: "25",
     description: "💜💜💜",
+  },
+  {
+    src: sixtyfour,
+    alt: "64",
+    description: "Ma ciao bellaaaa 💘",
   },
   {
     src: twentysix,

@@ -27,7 +27,7 @@ const Joke = ({ action = () => {} }) => {
           </p>
           <p className=" text-gray-700">Muchas cosas buenas están por venir.</p>
           <p className=" text-gray-700">
-            Algunos momentos te gustarán mas que otros, pero todo pasa por una
+            Algunos momentos te gustarán más que otros, pero todo pasa por una
             razón.
           </p>
           <p className="text-gray-700">
