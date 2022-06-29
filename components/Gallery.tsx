@@ -278,11 +278,6 @@ const images = [
     description: "💜💜💜",
   },
   {
-    src: meme,
-    alt: "meme",
-    description: "",
-  },
-  {
     src: twentysix,
     alt: "26",
     description: "¡Ya casi eres funcionaria!",
@@ -305,6 +300,14 @@ const Gallery = () => {
           <p className="text-gray-700 pt-8">{image.description}</p>
         </div>
       ))}
+      <div className="relative h-[32rem] w-full">
+        <Image
+          src={meme}
+          alt="meme"
+          layout="fill"
+          objectFit="cover"
+        />
+      </div>
     </div>
   );
 };
