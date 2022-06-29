@@ -1,6 +1,7 @@
+import Image from "next/image";
 import { playAudio, resetAudio } from "../lib/audio";
 import Gallery from "./Gallery";
-
+import lisa from "../public/lisa.jpg";
 const Resume = ({ action = () => {} }) => {
   const play = () => {
     resetAudio("carino");
@@ -19,13 +20,19 @@ const Resume = ({ action = () => {} }) => {
       </div>
 
       <div className="space-y-5 flex flex-col items-center">
-        <p className=" text-gray-700 text-3xl text-center font-semibold">
+        <div className="relative h-[32rem] w-full mb-10">
+          <Image src={lisa} alt="meme" layout="fill" objectFit="cover" />
+        </div>
+        <p className=" text-gray-700 text-3xl text-center font-semibold pb-5">
           ¡Feliz cumpleaños!
         </p>
-
         <p className=" text-gray-700">
-          Me gustaría que recordaras este año de alguna manera especial; y que entrar
-          en los treinta sea un gran recuerdo para ti.
+          Espero que hayas recordado muchos de los buenos momentos que te han
+          traído estos 30 años.
+        </p>
+        <p className=" text-gray-700">
+          Me gustaría que recordaras este año de alguna manera especial; y que
+          entrar en los treinta sea un gran recuerdo para ti.
         </p>
         <p className=" text-gray-700">
           Desgraciadamente ya sabes la sorpresa, así que sígueme el rollo y
