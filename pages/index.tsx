@@ -49,19 +49,19 @@ const Home: NextPage = () => {
             </div>
 
             <div className="space-y-5">
-              <p className="text-xl text-center text-gray-700">
-                El 27 de agosto de 2022
+              <p className="text-2xl text-center text-gray-700 font-semibold">
+                27 de agosto de 2022
               </p>
               <p className="text-xl text-center font-semibold text-gray-700">
-                ¡Nos vamos!
+                🎉 ¡Nos vamos! 🎉
               </p>
             </div>
-            <div className="space-y-5">
+            <div className="space-y-5 py-20">
               <p className=" text-gray-700 text-3xl text-center font-semibold">
                 ¡Feliz cumpleaños!
               </p>
               <p className=" text-gray-700 text-3xl text-center font-semibold">
-                💜💜💜 
+                💜💜💜
               </p>
             </div>
           </div>

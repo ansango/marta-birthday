@@ -316,7 +316,7 @@ const images = [
   {
     src: fiftyseven,
     alt: "57",
-    description: "Planta tercera",
+    description: "¿Qué estaba pasando?",
   },
   {
     src: fiftyfive,
