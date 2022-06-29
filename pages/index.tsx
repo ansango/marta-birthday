@@ -42,11 +42,12 @@ const Home: NextPage = () => {
               <Image src={ti} alt="TI" />
             </div>
             <p className="font-bold text-3xl md:text-5xl tracking-tight mb-1 text-gray-900 text-center">
-              en Paris?
+              en...
             </p>
             <div>
               <Image src={paris} alt="Paris" />
             </div>
+
             <div className="space-y-5">
               <p className="text-xl text-center">El 27 de agosto de 2022</p>
               <p className="text-xl text-center font-semibold">¡Nos vamos!</p>
