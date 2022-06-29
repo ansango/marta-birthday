@@ -61,7 +61,7 @@ const Home: NextPage = () => {
                 ¡Feliz cumpleaños!
               </p>
               <p className=" text-gray-700 text-3xl text-center font-semibold">
-                💜💜💜
+                💜💜💜 
               </p>
             </div>
           </div>

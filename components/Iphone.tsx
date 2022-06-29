@@ -24,7 +24,7 @@ const Iphone = ({ action = () => {} }) => {
           <Image src={iphone} alt="iPhone" layout="fill" objectFit="cover" />
         </div>
         <p className="text-gray-700 py-5">
-          Ya casi lo tienes, en breves momentos llamara el repartidor de Amazon
+          Ya casi lo tienes, en breves momentos llegará el repartidor de Amazon
           para entregártelo. Recuerda darle propina.
         </p>
         <div className="flex justify-center py-10">

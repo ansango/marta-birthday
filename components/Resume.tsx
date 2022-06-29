@@ -24,7 +24,7 @@ const Resume = ({ action = () => {} }) => {
         </p>
 
         <p className=" text-gray-700">
-          Quiero que recuerdes este año de alguna manera especial, y que entrar
+          Me gustaría que recordaras este año de alguna manera especial; y que entrar
           en los treinta sea un gran recuerdo para ti.
         </p>
         <p className=" text-gray-700">
