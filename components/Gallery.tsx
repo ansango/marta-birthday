@@ -37,7 +37,7 @@ const images = [
     src: two,
     alt: "2",
     description:
-      "Fisioterapia por la mañana, diseñadora de interiores en pandemia.",
+      "Fisioterapia en la normalidad, diseñadora de interiores en pandemia.",
   },
   {
     src: three,
@@ -52,12 +52,12 @@ const images = [
   {
     src: five,
     alt: "5",
-    description: "Pero siempre disfrutando a cada momento.",
+    description: "Pero siempre disfrutona.",
   },
   {
     src: six,
     alt: "6",
-    description: "Nunca pierdes la ocasión de celebrarlo.",
+    description: "Nunca pierdes la ocasión de celebrar.",
   },
   {
     src: seven,
@@ -67,27 +67,28 @@ const images = [
   {
     src: eight,
     alt: "8",
-    description: "¿Café con leche? 2",
+    description: "¿Café con leche? Segunda parte.",
   },
   {
     src: nine,
     alt: "9",
-    description: "Y con la mente en otro sitio",
+    description: "La mente viajando...",
   },
   {
     src: ten,
     alt: "10",
-    description: "Hemos llegado hasta aquí. Aunque nos hayan timado en Sintra.",
+    description:
+      "y hemos llegado hasta aquí, aunque nos hayan timado en Sintra.",
   },
   {
     src: eleven,
     alt: "11",
-    description: "En el campo o en la playa, lista para la foto.",
+    description: "En el campo o en la playa, siempre ready para la foto.",
   },
   {
     src: twelve,
     alt: "12",
-    description: "La mejor tía del mundo...",
+    description: "La mejor tita del mundo...",
   },
   {
     src: thirteen,
@@ -97,12 +98,12 @@ const images = [
   {
     src: fourteen,
     alt: "14",
-    description: "Comiendo hasta el amanecer.",
+    description: "Comiendo hasta el amanecer...",
   },
   {
     src: fifteen,
     alt: "15",
-    description: "Siendo la mejor versión de los Sims.",
+    description: "y siendo la mejor versión de los Sims.",
   },
   {
     src: sixteen,
@@ -122,27 +123,23 @@ const images = [
   {
     src: nineteen,
     alt: "19",
-    description: "Muchas veces un poco de diabetes.",
+    description: "A veces diabetes...",
   },
   {
     src: twenty,
     alt: "20",
-    description: "Y siempre...",
+    description: "influencer",
   },
-  {
-    src: twentyone,
-    alt: "21",
-    description: "Disfrutando a cada momento...",
-  },
+
   {
     src: twentytwo,
     alt: "22",
-    description: "En cualquier lugar.",
+    description: "o mas influencer",
   },
   {
     src: twentythree,
     alt: "23",
-    description: "Y aunque a veces estés triste...",
+    description: "Y aunque estés mailita...",
   },
   {
     src: twentyfour,
