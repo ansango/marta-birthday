@@ -38,18 +38,27 @@ const Home: NextPage = () => {
             <p className="font-bold text-3xl md:text-5xl tracking-tight mb-1 text-gray-900 text-center">
               ¿Lista para ver a...
             </p>
-
             <div className="">
               <Image src={ti} alt="TI" />
             </div>
-
             <p className="font-bold text-3xl md:text-5xl tracking-tight mb-1 text-gray-900 text-center">
               en Paris?
             </p>
             <div>
               <Image src={paris} alt="Paris" />
             </div>
-            <p className="text-xl">El 27 de agosto de 2022</p>
+            <div className="space-y-5">
+              <p className="text-xl text-center">El 27 de agosto de 2022</p>
+              <p className="text-xl text-center font-semibold">¡Nos vamos!</p>
+            </div>
+            <div className="space-y-5">
+              <p className=" text-gray-700 text-3xl text-center font-semibold">
+                ¡Feliz cumpleaños!
+              </p>
+              <p className=" text-gray-700 text-3xl text-center font-semibold">
+                💜💜💜
+              </p>
+            </div>
           </div>
         )}
       </main>
