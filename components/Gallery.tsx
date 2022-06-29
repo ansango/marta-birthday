@@ -60,6 +60,8 @@ import sixtytwo from "../public/rem/62.jpg";
 import sixtyfour from "../public/rem/64.jpg";
 import sixtyfive from "../public/rem/65.jpeg";
 import sixtysix from "../public/rem/66.jpg";
+import sixtyseven from "../public/rem/67.jpeg";
+import sixtyeight from "../public/rem/68.jpeg";
 
 import meme from "../public/meme.jpg";
 import Image from "next/image";
@@ -174,6 +176,11 @@ const images = [
     alt: "20",
     description: "influencer",
   },
+  {
+    src: sixtyseven,
+    alt: "67",
+    description: "amiga y coworker",
+  },
 
   {
     src: twentytwo,
@@ -209,6 +216,11 @@ const images = [
     src: fourtysix,
     alt: "46",
     description: "y vuelta al rumbeo.",
+  },
+  {
+    src: sixtyeight,
+    alt: "68",
+    description: "apurando buenos momentos...",
   },
   {
     src: fourtyfive,
