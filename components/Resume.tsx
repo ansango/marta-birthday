@@ -12,7 +12,7 @@ const Resume = ({ action = () => {} }) => {
   return (
     <>
       <div id="gallery">
-        <h2 className="text-xl font-semibold text-center pt-14">
+        <h2 className="text-xl text-gray-700 font-semibold text-center pt-14">
           Algunas historias graciosas, igual otras no tanto
         </h2>
         <Gallery />
