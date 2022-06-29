@@ -59,6 +59,8 @@ import sixtyone from "../public/rem/61.jpg";
 import sixtytwo from "../public/rem/62.jpg";
 import sixtyfour from "../public/rem/64.jpg";
 import sixtyfive from "../public/rem/65.jpeg";
+import sixtysix from "../public/rem/66.jpg";
+
 import meme from "../public/meme.jpg";
 import Image from "next/image";
 
@@ -351,6 +353,11 @@ const images = [
     src: sixtytwo,
     alt: "62",
     description: "Las buenas reus",
+  },
+  {
+    src: sixtysix,
+    alt: "66",
+    description: "¿Un punto de información?",
   },
   {
     src: twentyfive,
