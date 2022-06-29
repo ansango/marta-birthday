@@ -24,8 +24,9 @@ const Resume = ({ action = () => {} }) => {
           <Image src={lisa} alt="meme" layout="fill" objectFit="cover" />
         </div>
         <p className=" text-gray-700 text-3xl text-center font-semibold pb-5">
-          ¡Feliz cumpleaños!
+          ¡Te deseamos un Feliz cumpleaños!
         </p>
+        
         <p className=" text-gray-700">
           Espero que hayas recordado muchos de los buenos momentos que te han
           traído estos 30 años.
@@ -35,8 +36,7 @@ const Resume = ({ action = () => {} }) => {
           entrar en los treinta sea un gran recuerdo para ti.
         </p>
         <p className=" text-gray-700">
-          Desgraciadamente ya sabes la sorpresa, así que sígueme el rollo y
-          hazte la sorprendida.
+          Desgraciadamente ya sabes la sorpresa, así que hazte la sorprendida.
         </p>
 
         <div className="py-20">
