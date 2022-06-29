@@ -46,6 +46,16 @@ import fourtyfive from "../public/rem/45.jpg";
 import fourtysix from "../public/rem/46.jpg";
 import fourtyseven from "../public/rem/47.jpg";
 import fourtyeight from "../public/rem/48.jpg";
+import fourtynine from "../public/rem/49.jpeg";
+import fifty from "../public/rem/50.jpeg";
+import fiftyone from "../public/rem/51.jpeg";
+import fiftytwo from "../public/rem/52.jpeg";
+import fiftythree from "../public/rem/53.jpeg";
+import fiftyfour from "../public/rem/54.jpeg";
+import fiftyfive from "../public/rem/55.jpeg";
+import fiftysix from "../public/rem/56.jpeg";
+import fiftyseven from "../public/rem/57.jpeg";
+
 import meme from "../public/meme.jpg";
 import Image from "next/image";
 
@@ -211,6 +221,17 @@ const images = [
     description: "aquí o colonizando Latinoamérica...",
   },
   {
+    src: fiftyone,
+    alt: "51",
+    description: "Party por la mañana...",
+  },
+  {
+    src: fifty,
+    alt: "50",
+    description: "Party por la noche...",
+  },
+
+  {
     src: thirtytwo,
     alt: "32",
     description: "Y en Filipina, no pasa, na de na...",
@@ -273,6 +294,36 @@ const images = [
     description: "Y un buen robo tampoco.",
   },
   {
+    src: fourtynine,
+    alt: "49",
+    description: "Escapadas II",
+  },
+  {
+    src: fiftytwo,
+    alt: "52",
+    description: "Ibiza",
+  },
+  {
+    src: fiftyfour,
+    alt: "54",
+    description: "1,2,3",
+  },
+  {
+    src: fiftythree,
+    alt: "53",
+    description: "Las tres mellizas",
+  },
+  {
+    src: fiftyseven,
+    alt: "57",
+    description: "Planta tercera",
+  },
+  {
+    src: fiftyfive,
+    alt: "55",
+    description: "Tailandia",
+  },
+  {
     src: twentyfive,
     alt: "25",
     description: "💜💜💜",
@@ -281,6 +332,12 @@ const images = [
     src: twentysix,
     alt: "26",
     description: "¡Ya casi eres funcionaria!",
+  },
+
+  {
+    src: fiftysix,
+    alt: "56",
+    description: "Y tu mayor deseo, la jubilación.",
   },
 ];
 
@@ -301,12 +358,7 @@ const Gallery = () => {
         </div>
       ))}
       <div className="relative h-[32rem] w-full">
-        <Image
-          src={meme}
-          alt="meme"
-          layout="fill"
-          objectFit="cover"
-        />
+        <Image src={meme} alt="meme" layout="fill" objectFit="cover" />
       </div>
     </div>
   );
