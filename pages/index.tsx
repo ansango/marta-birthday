@@ -1,12 +1,15 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import Image from "next/image";
 import { useState } from "react";
+
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Iphone from "../components/Iphone";
 import Joke from "../components/Joke";
 import Resume from "../components/Resume";
-import { playAudio, resetAudio } from "../lib/audio";
+import paris from "../public/paris.jpg";
+import ti from "../public/ti.png";
 
 const Home: NextPage = () => {
   const [showIphone, setShowIphone] = useState(false);
@@ -31,10 +34,23 @@ const Home: NextPage = () => {
         {showJoke && <Joke action={() => setResume(true)} />}
         {showResume && <Resume action={() => setPresent(true)} />}
         {showPresent && (
-          <div
-            className="h-screen flex flex-col justify-between pt-20"
-            id="present"
-          ></div>
+          <div id="present" className="space-y-20">
+            <p className="font-bold text-3xl md:text-5xl tracking-tight mb-1 text-gray-900 text-center">
+              ¿Lista para ver a...
+            </p>
+
+            <div className="">
+              <Image src={ti} alt="TI" />
+            </div>
+
+            <p className="font-bold text-3xl md:text-5xl tracking-tight mb-1 text-gray-900 text-center">
+              en Paris?
+            </p>
+            <div>
+              <Image src={paris} alt="Paris" />
+            </div>
+            <p className="text-xl">El 27 de agosto de 2022</p>
+          </div>
         )}
       </main>
       <Footer />

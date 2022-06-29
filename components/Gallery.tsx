@@ -163,7 +163,7 @@ const images = [
 
 const Gallery = () => {
   return (
-    <div id="gallery" className="py-20 space-y-16">
+    <div className="py-20 space-y-16">
       {images.map((image) => (
         <div key={image.alt}>
           <div className="relative h-96 w-full">
